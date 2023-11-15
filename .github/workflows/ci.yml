@@ -18,7 +18,7 @@ jobs:
         steps:
             # Checkout the source code
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             # Install Volta to enforce proper node and package manager versions
             - name: 'Install Volta'
@@ -67,7 +67,7 @@ jobs:
         steps:
             # Checkout the source code
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             # Run PMD scan
             - name: 'Run PMD scan'
@@ -143,7 +143,7 @@ jobs:
         steps:
             # Checkout the code
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             # Fetch history
             - name: 'Fetch history'
@@ -163,7 +163,7 @@ jobs:
         steps:
             # Checkout the source code
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             # Check for package changes using git diff
             - name: 'Check for package changes'
